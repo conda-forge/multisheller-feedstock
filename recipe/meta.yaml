@@ -1,5 +1,5 @@
 {% set name = "multisheller" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/wolfv/multisheller/archive/{{ version }}.tar.gz
-  sha256: f897955cc34f0219316e5daf703437b30407bbbe6ff69f56dc934d4d7ca8dd7f
+  sha256: 97b07f74403b3ba9f48d52e5a1e6a78bd0981249674def1d56b8b1dc887a5d54
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - multisheller = multisheller.cli.main:main
 
@@ -40,7 +40,7 @@ about:
   home: https://github.com/wolfv/multisheller
   license: BSD-3-Clause
   license_file: LICENSE
-  summary: 'This project implements a simple DSL (in Python) to generate shell scripts for many different shells.'
+  summary: This project implements a simple DSL (in Python) to generate shell scripts for many different shells.
   dev_url: https://github.com/wolfv/multisheller
 
 extra:
