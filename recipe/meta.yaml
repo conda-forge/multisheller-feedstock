@@ -1,5 +1,5 @@
 {% set name = "multisheller" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/wolfv/multisheller/archive/{{ version }}.tar.gz
-  sha256: 97b07f74403b3ba9f48d52e5a1e6a78bd0981249674def1d56b8b1dc887a5d54
+  sha256: 5ed9a971576e1ba37d6f360e94f1e5abdbebac9e42534af68e2be8b2e7fb3efb
 
 build:
   noarch: python
@@ -46,3 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - wolfv
+    - traversaro
