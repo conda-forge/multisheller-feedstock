@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mamba-org/multisheller/archive/{{ version }}.tar.gz
-  sha256: 5ed9a971576e1ba37d6f360e94f1e5abdbebac9e42534af68e2be8b2e7fb3efb
+  sha256: e7f5be312cdf54d00d8ac12f63eebd77915430da41ce59f3823c0c228963278d
 
 build:
   noarch: python
