@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/wolfv/multisheller/archive/{{ version }}.tar.gz
+  url: https://github.com/mamba-org/multisheller/archive/{{ version }}.tar.gz
   sha256: 5ed9a971576e1ba37d6f360e94f1e5abdbebac9e42534af68e2be8b2e7fb3efb
 
 build:
